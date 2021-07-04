@@ -61,8 +61,8 @@ client.on("ready", () => {
       "Infinite Codes In Stock",
       "Generating Codes",
       "Stealing Emojis",
-      "Invite Me:  >invite",
-      "!! Snowwy#1337 Is My Dad"
+      "Invite Me:  !invite",
+      "ROS Is My Dad"
     ]; // You can change it whatever you want.
     let rstatus = Math.floor(Math.random() * status.length);
 
@@ -72,7 +72,7 @@ client.on("ready", () => {
 
     client.user.setActivity(status[rstatus], {
       type: "PLAYING",
-      url: "https://www.twitch.tv/snowwy2k"
+      url: "https://www.twitch.tv/ros"
     });
   }
   setInterval(randomStatus, 5000); // Time in ms. 30000ms = 30 seconds. Min: 20 seconds, to avoid ratelimit.
